@@ -1,0 +1,73 @@
+.login-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.form-control input {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+}
+.form-control input:focus {
+    outline-color: #00695c;
+}
+
+.form-control input.invalid {
+    border-color: red;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    font: inherit;
+    border: 1px solid #00695c;
+    color: #00695c;
+    cursor: pointer;
+    border-radius: 3px;
+    background: whitesmoke;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #00695c;
+    color: white;
+}
+
+.file-upload {
+    text-align: center;
+    border: 3px dashed rgb(210, 227, 244);
+    position: relative;
+    cursor: pointer;
+}
+.file-upload p {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: #bbcada;
+}
+
+.file-upload input {
+    display: block;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+
+}
